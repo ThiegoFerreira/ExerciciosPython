@@ -1,0 +1,5 @@
+a = float(input("Digite um número: "))
+b = float(input("Digite um segundo número: "))
+c = float(input("Digite um terceiro número: "))
+res=(a*a)+(b*b)+(c*c)
+print("O resultado da soma do quadrado dos número",a,b,c,"é", res)

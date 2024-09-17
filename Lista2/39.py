@@ -1,0 +1,10 @@
+valor = float(input("Informe o valor da sua hora trabalhada: "))
+horas = float(input("Informe quantas horas você trabalho no mês: "))
+salario = valor * horas
+ir = salario * 0.11
+inss = salario * 0.08
+sind = salario* 0.05
+print(f"Salário bruto = R${salario:.2f}")
+print(f"Valor do Inss = R${inss:.2f}")
+print(f"O valor referente ao sindicato = R${sind:.2f}")
+print(f"Salário liquido = R${salario-ir-inss-sind:.2f}")
